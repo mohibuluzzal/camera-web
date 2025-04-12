@@ -1,0 +1,136 @@
+/* inter & poppin fonts embed
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* theme styles
+============ */
+:root{
+    --text-inter: "Inter", sans-serif;
+    --text-poppins: "Poppins", sans-serif;
+    --text-14: 0.6rem;
+    --text-16: 0.8rem;
+    --text-24: 1rem;
+    --text-28: 1.5rem;
+    --text-38: 2rem;
+    --text-52: 3rem;
+    --text-gray: #787885;
+    --text-white: white;
+    --font-400: 400;
+    --font-500: 500;
+    --font-600: 600;
+    --font-700: 700;
+}
+
+/* shared styles
+============ */
+.text-inter{
+    font-family: var(--text-inter);
+}
+.text-poppins{
+    font-family: var(--text-poppins);
+}
+.text-14{
+    font-size: var(--text-14);
+}
+.text-16{
+    font-size: var(--text-16);
+}
+.text-24{
+    font-size: var(--text-24);
+}
+.text-28{
+    font-size: var(--text-28);
+}
+.text-38{
+    font-size: var(--text-38);
+}
+.text-52{
+    font-size: var(--text-52);
+}
+.text-gray{
+    color: var(--text-gray);
+}
+.text-white{
+    color: var(--text-white);
+}
+.font-400{
+    font-weight: var(--font-400);
+}
+.font-500{
+    font-weight: var(--font-500);
+}
+.font-600{
+    font-weight: var(--font-600);
+}
+.font-700{
+    font-weight: var(--font-700);
+}
+.common-margin{
+    max-width: 1200px;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px 10px 24px;
+}
+/* nav section style
+================= */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-content > ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+/* banner content style start
+========================== */
+.banner-container{
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 50px;
+}
+#round-border{
+    border-radius: 41px;
+}
+.banner-image img{
+    width: 100%;
+}
+
+
+/* media query or responsive style
+================================ */
+@media screen and (max-width: 576px) {
+    /* nav section style
+    ================= */
+    .nav-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        background-image: none;
+        
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-image{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+}
