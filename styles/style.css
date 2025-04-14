@@ -149,3 +149,15 @@
     color: #FB8200;
     margin-right: 5px;
 }
+
+/* see more section style
+====================== */
+.see-more{
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.see-more p{
+    color: #E02C6DDE;
+    text-align: right;
+}
