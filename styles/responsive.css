@@ -41,5 +41,19 @@
         .card-box {
             width: 96%;
         }
-    
+
+    /* feature section style
+    ====================== */
+    .featuer-container{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .feature-img {
+        width: 100%;
+    }
+    .feature-content {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
 }

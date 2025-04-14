@@ -161,3 +161,22 @@
     color: #E02C6DDE;
     text-align: right;
 }
+
+/* feature section style
+====================== */
+.featuer-container{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+}
+.feature-img{
+    width: 40%;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-content{
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 30px;
+    }
