@@ -32,4 +32,14 @@
         justify-content: center;
         padding-left: 10px;
     }
+
+    /* popular collection section style
+    ================================== */
+        .popular-image-collection {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .card-box {
+            width: 96%;
+        }
+    
 }
